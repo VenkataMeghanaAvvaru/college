@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="description" content="SBSYM Degree College, Onipenta Road, Mydukur - Courses, Contact Info, and More"/>
+  <meta name="keywords" content="SBSYM College, Degree College Mydukur, BSc, BCom, BA, Andhra Pradesh"/>
+  <meta name="author" content="SBSYM Degree College"/>
+  <title>SBSYM Degree College | Mydukur</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      scroll-behavior: smooth;
+    }
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      background: #f0f8ff;
+      color: #333;
+    }
+    header {
+      background: linear-gradient(to right, #002f4b, #005f6b);
+      color: white;
+      padding: 30px;
+      text-align: center;
+    }
+    nav {
+      background: #003366;
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      padding: 15px;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 16px;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    main {
+      padding: 20px;
+    }
+    .banner {
+      width: 100%;
+      max-height: 400px;
+      object-fit: cover;
+      border-radius: 10px;
+      margin-bottom: 20px;
+    }
+    section {
+      background: #ffffff;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+      margin-bottom: 30px;
+    }
+    section h2 {
+      color: #005f6b;
+    }
+    ul {
+      padding-left: 20px;
+    }
+    footer {
+      background: #002f4b;
+      color: white;
+      padding: 15px;
+      text-align: center;
+    }
+    .hidden {
+      display: none;
+    }
+
+    .contact-images {
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      gap: 40px;
+      flex-wrap: wrap;
+      margin-top: 20px;
+    }
+    .contact-images .person {
+      text-align: center;
+      max-width: 220px;
+    }
+    .contact-images img {
+      width: 100%;
+      max-width: 200px;
+      height: auto;
+      border-radius: 10px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+      margin-bottom: 10px;
+    }
+  </style>
+  <script>
+    function showSection(id) {
+      document.querySelectorAll('section').forEach(sec => sec.classList.add('hidden'));
+      document.getElementById(id).classList.remove('hidden');
+    }
+    window.onload = () => showSection('home');
+  </script>
+</head>
+<body>
+  <header>
+    <h1>SBSYM Degree College</h1>
+    <p>Onipenta Road, Mydukur - 516172</p>
+  </header>
+
+  <nav>
+    <a href="#" onclick="showSection('home')">Home</a>
+    <a href="#" onclick="showSection('courses')">Branches</a>
+    <a href="#" onclick="showSection('contact')">Contact</a>
+<a href="#" onclick="showSection('Facality')">Facality</a>
+  </nav>
+  </nav>
+
+  <main>
+    <section id="home">
+      <img src="sbsym_college_rotated.jpg" alt="College Banner" class="banner">
+      <h2>Welcome to SBSYM Degree College</h2>
+      <p>We are committed to providing quality higher education in Mydukur. Our college offers a wide range of degree programs to prepare students for successful careers.</p>
+
+      <h2>Meet Our Management</h2>
+      <div class="contact-images">
+        <div class="person">
+          <img src="correspondent.jpg" alt="Correspondent">
+          <p><strong>Dr. Bala Siva Yogendra Maharaja</strong><br>Correspondent</p>
+        </div>
+        <div class="person">
+          <img src="principal.jpg" alt="Principal">
+          <p><strong>S.B.Suresh Babu (M.Sc., B.Ed.)</strong><br>Principal</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="courses" class="hidden">
+      <h2>Branches (Courses Offered)</h2>
+      <ul>
+        <li>B.Com - Computers</li>
+        <li>B.Com - General</li>
+        <li>B.Sc - Botany</li>
+        <li>B.Sc - Zoology</li>
+        <li>B.Sc - Biotechnology</li>
+        <li>B.Sc - Microbiology</li>
+        <li>B.Sc - Chemistry</li>
+        <li>B.Sc - Physics</li>
+        <li>B.A - Political Science</li>
+        <li>B.A - Economics</li>
+      </ul>
+    </section>
+
+    <section id="contact" class="hidden">
+      <h2>Contact Information</h2>
+      <p><strong>Principal:</strong> S.B. Suresh Babu (M.Sc., B.Ed.)</p>
+      <p><strong>Cell:</strong> 8985258770</p>
+      <p><strong>Correspondent:</strong> Dr. Bala Siva Yogendra Maharaja</p>
+      <p><strong>Other Contact Numbers:</strong> 9912099587, 7702936047, 8639847736</p>
+    </section>
+<section id="Facality" class="hidden">
+      <h2>Facality Information</h2>
+    <ul>  <li><strong>Principal:</strong> S.B.Suresh Babu (M.Sc., B.Ed.)</li>
+      <li><strong>Cell:</strong> 8985258770</li>
+      <li><strong>Economics:</strong> B.Venugopal Naik</li>
+      <li><strong>Zoology:</strong> N.Sekhar </li>
+     
+      <li><strong>Commerce:</strong> S.B.Mahaboob Basha </li>
+      <li><strong>Commerce:</strong> M.Ganesh </li>
+      <li><strong>Computer Science:</strong> B.Dastagiri </li>
+      
+      <li><strong>Geography:</strong> G.Ramesh</li>
+      <li><strong>Political Science:</strong> D.Ramanjeneyalu </li>
+ <li><strong>Telugu:</strong> Ravi kalayan </li>
+<li><strong>English:</strong> S.B.Mahaboob Basha </li>
+      <li><strong>Maths:</strong> M.Krishnaveni</li>
+      <li><strong>Physics:</strong> P.Prasad Reddy </li>
+  <li><strong>Chemistry:</strong> P.Padmavathi</li></ul>
+	
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 SBSYM Degree College. All rights reserved.</p>
+  </footer>
+</body>
+</html>
